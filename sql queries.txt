@@ -1,0 +1,6 @@
+1)Display no.of students in each department
+  Select count(dept) from student
+
+2)no.of students in each department who has greater than 8 grade
+  Select count(dept), no. Of name from student where grade > 8
+  Group by dept
